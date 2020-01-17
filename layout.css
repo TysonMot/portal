@@ -1,0 +1,114 @@
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    width: 100%;
+    background-color: gainsboro;
+}
+
+
+/* main header stylesheet */
+
+.main-header,
+.nav-bar {
+    float: left;
+    width: 100%;
+}
+
+.nav-details {
+    float: left;
+    width: 100%;
+}
+
+
+/* main header stylesheet closing tag */
+
+
+/* main container  */
+
+.main-container {
+    float: left;
+    width: 100%;
+    display: flex;
+}
+
+.box {
+    box-shadow: 0 0 2px black;
+    width: 19.5%;
+    margin: 0.5%;
+    padding: 0.5%;
+    background-color: white;
+}
+
+.sub-box {
+    width: 100%;
+    float: left;
+    background-color: blue;
+}
+
+.sub-box img,
+.sub-box-logo img {
+    width: 100%;
+}
+
+.sub-box-logo {
+    float: left;
+    width: 100%;
+}
+
+.sub-box-content {
+    background-color: yellow;
+    padding: 0.5%;
+}
+
+
+/* responsive design */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+    body .mobile-menu {
+        display: flex;
+    }
+    body .desktop-menu {
+        display: none;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {}
+
+.mobile-menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    box-shadow: 0 0 4px black;
+    display: none;
+}
+
+.menu {
+    width: 25%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 20px;
+}
